@@ -25,7 +25,3 @@ def calculator(method: str, value1: int, value2: int):
 
     elif method == "Division":
         return value1 / value2
-
-
-if __name__ == "__main__":
-    calculator("Addition", 10, 20)

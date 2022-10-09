@@ -4,7 +4,7 @@ The Fast API module for the calculator
 
 from fastapi import FastAPI
 from pydantic import BaseModel
-from src.calculator import calculator
+from calculator import calculator
 
 
 class Input(BaseModel):
